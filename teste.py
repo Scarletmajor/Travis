@@ -1,2 +1,5 @@
-def somar(x, y):
-    return(x * y)
+import pytest
+from principal import somar
+
+def teste_somar():
+    assert somar(2,3) == 5
